@@ -1,0 +1,2673 @@
+{
+  "packageGovernance": {
+    "totalDistinctPackages": 48,
+    "totalVersionDriftInstances": 0,
+    "targetFramework": "net10.0",
+    "packages": [
+      {
+        "name": "Ardalis.ApiEndpoints",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.1.0",
+            "projects": [
+              "PublicApi"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Ardalis.GuardClauses",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.0.1",
+            "projects": [
+              "ApplicationCore"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Ardalis.ListStartupServices",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.1.4",
+            "projects": [
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Ardalis.Result",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "ApplicationCore"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Ardalis.Specification",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "ApplicationCore",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Ardalis.Specification.EntityFrameworkCore",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "Infrastructure"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is deprecated",
+        "versions": [
+          {
+            "version": "12.0.1",
+            "projects": [
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Azure.Extensions.AspNetCore.Configuration.Secrets",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.3.1",
+            "projects": [
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Azure.Identity",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.21.0",
+        "isCompatible": true,
+        "description": "NuGet package contains security vulnerability",
+        "versions": [
+          {
+            "version": "1.10.4",
+            "projects": [
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "1.21.0"
+        }
+      },
+      {
+        "name": "Blazored.LocalStorage",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.5.0",
+            "projects": [
+              "BlazorAdmin"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "BlazorInputFile",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "projects": [
+              "BlazorAdmin",
+              "BlazorShared"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "coverlet.collector",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.2",
+            "projects": [
+              "PublicApiIntegrationTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "FluentValidation",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "11.9.0",
+            "projects": [
+              "BlazorShared"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "MediatR",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "12.0.1",
+            "projects": [
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.Authorization",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "BlazorAdmin"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "BlazorAdmin"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "BlazorAdmin"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "BlazorAdmin"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "Infrastructure",
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Identity.UI",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.Mvc.Testing",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "FunctionalTests",
+              "PublicApiIntegrationTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.InMemory",
+        "totalProjectCount": 5,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "FunctionalTests",
+              "Infrastructure",
+              "IntegrationTests",
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.SqlServer",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "Infrastructure",
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.Tools",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.Extensions.Identity.Core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.2",
+            "projects": [
+              "BlazorAdmin"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.Extensions.Logging.Configuration",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.0",
+            "projects": [
+              "BlazorAdmin"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "totalProjectCount": 4,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "17.9.0",
+            "projects": [
+              "FunctionalTests",
+              "IntegrationTests",
+              "PublicApiIntegrationTests",
+              "UnitTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.19.6",
+            "projects": [
+              "PublicApi"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.2",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.0",
+            "projects": [
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.2"
+        }
+      },
+      {
+        "name": "Microsoft.Web.LibraryManager.Build",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.1.175",
+            "projects": [
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "MinimalApi.Endpoint",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "projects": [
+              "PublicApi"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "MSTest.TestAdapter",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.2.2",
+            "projects": [
+              "PublicApiIntegrationTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "MSTest.TestFramework",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.2.2",
+            "projects": [
+              "PublicApiIntegrationTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "NSubstitute",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "5.1.0",
+            "projects": [
+              "IntegrationTests",
+              "UnitTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "NSubstitute.Analyzers.CSharp",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.0.17",
+            "projects": [
+              "IntegrationTests",
+              "UnitTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Swashbuckle.AspNetCore",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.5.0",
+            "projects": [
+              "PublicApi"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Swashbuckle.AspNetCore.Annotations",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.5.0",
+            "projects": [
+              "PublicApi"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Swashbuckle.AspNetCore.SwaggerUI",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.5.0",
+            "projects": [
+              "PublicApi"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "System.IdentityModel.Tokens.Jwt",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is deprecated",
+        "versions": [
+          {
+            "version": "7.3.1",
+            "projects": [
+              "Infrastructure",
+              "PublicApi",
+              "Web"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "System.Net.Http.Json",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.0",
+            "projects": [
+              "BlazorAdmin"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "System.Security.Claims",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "4.3.0",
+            "projects": [
+              "ApplicationCore"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "System.Text.Json",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.9",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "8.0.3",
+            "projects": [
+              "ApplicationCore"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.9"
+        }
+      },
+      {
+        "name": "xunit",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is deprecated",
+        "versions": [
+          {
+            "version": "2.7.0",
+            "projects": [
+              "FunctionalTests",
+              "IntegrationTests",
+              "UnitTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "xunit.runner.console",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is deprecated",
+        "versions": [
+          {
+            "version": "2.7.0",
+            "projects": [
+              "UnitTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "xunit.runner.visualstudio",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.5.6",
+            "projects": [
+              "FunctionalTests",
+              "IntegrationTests",
+              "UnitTests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "ApplicationCore",
+      "path": "src\\ApplicationCore\\ApplicationCore.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Ardalis.GuardClauses",
+            "version": "4.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Ardalis.Result",
+            "version": "7.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Ardalis.Specification",
+            "version": "7.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "System.Security.Claims",
+            "version": "4.3.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "System.Text.Json",
+            "version": "8.0.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "BlazorShared",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\BlazorShared\\BlazorShared.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "BlazorAdmin",
+      "path": "src\\BlazorAdmin\\BlazorAdmin.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Blazored.LocalStorage",
+            "version": "4.5.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "BlazorInputFile",
+            "version": "0.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNetCore.Components.Authorization",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Components.WebAssembly",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.Extensions.Identity.Core",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Configuration",
+            "version": "8.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "System.Net.Http.Json",
+            "version": "8.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "BlazorShared",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorAdmin\\BlazorAdmin.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\BlazorShared\\BlazorShared.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "BlazorShared",
+      "path": "src\\BlazorShared\\BlazorShared.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "BlazorInputFile",
+            "version": "0.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorShared\\BlazorShared.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "FluentValidation",
+            "version": "11.9.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\BlazorShared\\BlazorShared.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "FunctionalTests",
+      "path": "tests\\FunctionalTests\\FunctionalTests.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Microsoft.AspNetCore.Mvc.Testing",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\FunctionalTests\\FunctionalTests.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.NET.Test.Sdk",
+            "version": "17.9.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\FunctionalTests\\FunctionalTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "xunit",
+            "version": "2.7.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\FunctionalTests\\FunctionalTests.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "xunit.runner.visualstudio",
+            "version": "2.5.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\FunctionalTests\\FunctionalTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.InMemory",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\FunctionalTests\\FunctionalTests.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "ApplicationCore",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\FunctionalTests\\FunctionalTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\ApplicationCore\\ApplicationCore.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "PublicApi",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\FunctionalTests\\FunctionalTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\PublicApi\\PublicApi.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Web",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\FunctionalTests\\FunctionalTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\Web\\Web.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "path": "src\\Infrastructure\\Infrastructure.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Ardalis.Specification.EntityFrameworkCore",
+            "version": "7.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Infrastructure\\Infrastructure.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Infrastructure\\Infrastructure.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.InMemory",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Infrastructure\\Infrastructure.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.SqlServer",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Infrastructure\\Infrastructure.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "System.IdentityModel.Tokens.Jwt",
+            "version": "7.3.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Infrastructure\\Infrastructure.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "ApplicationCore",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\Infrastructure\\Infrastructure.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\ApplicationCore\\ApplicationCore.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "IntegrationTests",
+      "path": "tests\\IntegrationTests\\IntegrationTests.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Microsoft.EntityFrameworkCore.InMemory",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\IntegrationTests\\IntegrationTests.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.NET.Test.Sdk",
+            "version": "17.9.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\IntegrationTests\\IntegrationTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "NSubstitute",
+            "version": "5.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\IntegrationTests\\IntegrationTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "NSubstitute.Analyzers.CSharp",
+            "version": "1.0.17",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\IntegrationTests\\IntegrationTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "xunit",
+            "version": "2.7.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\IntegrationTests\\IntegrationTests.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "xunit.runner.visualstudio",
+            "version": "2.5.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\IntegrationTests\\IntegrationTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "Infrastructure",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\IntegrationTests\\IntegrationTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\Infrastructure\\Infrastructure.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "UnitTests",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\IntegrationTests\\IntegrationTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "tests\\UnitTests\\UnitTests.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "PublicApi",
+      "path": "src\\PublicApi\\PublicApi.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Ardalis.ApiEndpoints",
+            "version": "4.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+            "version": "12.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "MinimalApi.Endpoint",
+            "version": "1.3.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Swashbuckle.AspNetCore",
+            "version": "6.5.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Swashbuckle.AspNetCore.SwaggerUI",
+            "version": "6.5.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Swashbuckle.AspNetCore.Annotations",
+            "version": "6.5.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Identity.UI",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.InMemory",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.SqlServer",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Tools",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+            "version": "1.19.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+            "version": "8.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.2",
+            "upgrade": {
+              "newVersion": "10.0.2"
+            }
+          },
+          {
+            "name": "System.IdentityModel.Tokens.Jwt",
+            "version": "7.3.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "ApplicationCore",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\ApplicationCore\\ApplicationCore.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Infrastructure",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\PublicApi\\PublicApi.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\Infrastructure\\Infrastructure.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "PublicApiIntegrationTests",
+      "path": "tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Microsoft.AspNetCore.Mvc.Testing",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.NET.Test.Sdk",
+            "version": "17.9.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "MSTest.TestAdapter",
+            "version": "3.2.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "MSTest.TestFramework",
+            "version": "3.2.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "coverlet.collector",
+            "version": "6.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "$(_TestFrameworkExtensionsRoot)Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions",
+            "version": "",
+            "isTransitive": true,
+            "physicalPath": "tests\\PublicApiIntegrationTests\\$(_TestFrameworkExtensionsRoot)Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "PublicApi",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\PublicApi\\PublicApi.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Web",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\Web\\Web.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "UnitTests",
+      "path": "tests\\UnitTests\\UnitTests.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Microsoft.NET.Test.Sdk",
+            "version": "17.9.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\UnitTests\\UnitTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "NSubstitute",
+            "version": "5.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\UnitTests\\UnitTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "NSubstitute.Analyzers.CSharp",
+            "version": "1.0.17",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\UnitTests\\UnitTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "xunit",
+            "version": "2.7.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\UnitTests\\UnitTests.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "xunit.runner.visualstudio",
+            "version": "2.5.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\UnitTests\\UnitTests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "xunit.runner.console",
+            "version": "2.7.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "tests\\UnitTests\\UnitTests.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "ApplicationCore",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\UnitTests\\UnitTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\ApplicationCore\\ApplicationCore.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Web",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "tests\\UnitTests\\UnitTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\Web\\Web.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    },
+    {
+      "name": "Web",
+      "path": "src\\Web\\Web.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net8.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Ardalis.ListStartupServices",
+            "version": "1.1.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Ardalis.Specification",
+            "version": "7.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+            "version": "12.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Azure.Extensions.AspNetCore.Configuration.Secrets",
+            "version": "1.3.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Azure.Identity",
+            "version": "1.10.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package contains security vulnerability",
+            "compatibility": "valid",
+            "recommendedVersion": "1.21.0",
+            "upgrade": {
+              "newVersion": "1.21.0"
+            }
+          },
+          {
+            "name": "MediatR",
+            "version": "12.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.InMemory",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+            "version": "8.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.2",
+            "upgrade": {
+              "newVersion": "10.0.2"
+            }
+          },
+          {
+            "name": "Microsoft.Web.LibraryManager.Build",
+            "version": "2.1.175",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Identity.UI",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.SqlServer",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Tools",
+            "version": "8.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.9",
+            "upgrade": {
+              "newVersion": "10.0.9"
+            }
+          },
+          {
+            "name": "System.IdentityModel.Tokens.Jwt",
+            "version": "7.3.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "description": "NuGet package is deprecated",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "ApplicationCore",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\ApplicationCore\\ApplicationCore.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "BlazorAdmin",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\BlazorAdmin\\BlazorAdmin.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "BlazorShared",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\BlazorShared\\BlazorShared.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Infrastructure",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "src\\Web\\Web.csproj"
+              }
+            ],
+            "referencedProjectPath": "src\\Infrastructure\\Infrastructure.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      },
+      "imports": [
+        {
+          "path": "Directory.Packages.props",
+          "isLocal": true
+        }
+      ]
+    }
+  ]
+}
