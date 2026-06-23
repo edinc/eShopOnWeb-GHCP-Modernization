@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Tasks template for modernization plan. Generate this file alongside plan.md to track individual migration tasks.",
+  "metadata": {
+    "planName": "modernization-plan-cloud-agent",
+    "projectName": "eShopOnWeb",
+    "language": "dotnet",
+    "createdAt": "2026-06-23T15:34:56Z",
+    "version": "1.0"
+  },
+  "tasks": [
+    {
+      "type": "upgrade",
+      "id": "001-upgrade-dotnet-to-net10",
+      "description": "Upgrade all eShopOnWeb projects from .NET 8 (net8.0) to .NET 10 (net10.0), updating target framework monikers, NuGet package versions, and fixing runtime incompatibilities.",
+      "reason": "The assessment targets net10.0 and identifies 10 projects that need their target framework changed. There are 24 binary/source incompatible API usages and 24 NuGet packages requiring updates. Upgrading to .NET 10 (current latest LTS) ensures continued support and compatibility with modern Azure SDK packages.",
+      "requirements": "Upgrade all 10 projects (ApplicationCore, BlazorAdmin, BlazorShared, Infrastructure, PublicApi, Web, FunctionalTests, IntegrationTests, PublicApiIntegrationTests, UnitTests) from net8.0 to net10.0. Update all NuGet packages flagged as incompatible or upgrade-recommended in the assessment, including Microsoft.AspNetCore.* (8.0.x → 10.0.x), Microsoft.EntityFrameworkCore.* (8.0.x → 10.0.x), and Microsoft.VisualStudio.Azure.Containers.Tools.Targets (incompatible — remove or replace). Fix binary incompatibilities in IdentityModel token handler usage (JwtSecurityTokenHandler, JwtSecurityTokenDescriptor) and source incompatibilities in DI service registrations, authentication configuration, and middleware setup. Address behavioral changes in HttpContent, System.Uri, and console logging. Remove System.Security.Claims package reference (now included in framework). Replace deprecated AutoMapper.Extensions.Microsoft.DependencyInjection with its successor if available. Update global.json SDK version to 10.0.x. Verify the project builds and all existing tests pass after upgrade.",
+      "successCriteria": {
+        "passBuild": "true",
+        "generateNewUnitTests": "false",
+        "passUnitTests": "true"
+      },
+      "dependencies": []
+    },
+    {
+      "type": "transform",
+      "id": "002-transform-keyvault-secrets",
+      "description": "Migrate hardcoded sensitive constants (JWT_SECRET_KEY, AUTH_KEY, DEFAULT_PASSWORD) from AuthorizationConstants.cs to Azure Key Vault, using Managed Identity for authentication.",
+      "reason": "The assessment flags hardcoded sensitive data in src/ApplicationCore/Constants/AuthorizationConstants.cs. JWT secret keys and auth keys embedded in source code are a critical security risk: they are exposed in version control and cannot be rotated without code changes. Azure Key Vault with Managed Identity removes static secrets from code entirely.",
+      "requirements": "Remove the hardcoded constants JWT_SECRET_KEY, AUTH_KEY, and DEFAULT_PASSWORD from src/ApplicationCore/Constants/AuthorizationConstants.cs. Retrieve these values at runtime from Azure Key Vault using the Azure Key Vault secrets SDK and Managed Identity (DefaultAzureCredential). Update all call sites in the Infrastructure and PublicApi projects that reference these constants to use the configuration-backed values. Ensure that local development can fall back to user secrets or environment variables for Key Vault values. Verify the project builds and all existing tests pass (using mocked or test-scoped secret values where needed). Addresses: Hardcoded sensitive data detected (src/ApplicationCore/Constants/AuthorizationConstants.cs line 10).",
+      "skills": [
+        {
+          "name": "migration-azure-keyvault-secret",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "generateNewUnitTests": "false",
+        "passUnitTests": "true"
+      },
+      "dependencies": [
+        "001-upgrade-dotnet-to-net10"
+      ]
+    },
+    {
+      "type": "transform",
+      "id": "003-transform-app-configuration",
+      "description": "Externalize the hardcoded URL template string in UriComposer.cs to Azure App Configuration, enabling per-environment URL management without code changes.",
+      "reason": "The assessment flags a hardcoded URL (http://catalogbaseurltobereplaced) in src/ApplicationCore/Services/UriComposer.cs as a cloud readiness issue. Hard-coded URL strings in source code cannot be changed per environment without a redeployment and are a maintenance liability. Externalizing the value to Azure App Configuration allows environment-specific overrides managed centrally.",
+      "requirements": "Remove the hardcoded URL placeholder string 'http://catalogbaseurltobereplaced' from src/ApplicationCore/Services/UriComposer.cs. Move this value to application configuration (appsettings.json as the default) and then migrate it to Azure App Configuration using the Azure App Configuration SDK with Managed Identity (DefaultAzureCredential). Ensure the existing IConfiguration/IOptions pattern is preserved so that all existing consumers of CatalogSettings.CatalogBaseUrl continue to work without changes. Emit a .azure/configuration-migration.json seed file documenting the migrated key for the deployment agent. Verify the project builds and all tests pass. Addresses: Hardcoded URLs detected (src/ApplicationCore/Services/UriComposer.cs line 12).",
+      "skills": [
+        {
+          "name": "migration-local-appsettings-azure-app-configuration",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "generateNewUnitTests": "false",
+        "passUnitTests": "true"
+      },
+      "dependencies": [
+        "001-upgrade-dotnet-to-net10"
+      ]
+    },
+    {
+      "type": "security",
+      "id": "004-security-cve-remediation",
+      "description": "Scan all project dependencies for known CVEs and remediate identified vulnerabilities to ensure the application is secure.",
+      "reason": "The assessment identifies known security advisories against Azure.Identity 1.10.4 and System.Text.Json 8.0.3, both flagged as immediate compatibility and security review candidates. Several packages are also deprecated and may carry unpatched vulnerabilities. CVE remediation must complete before the application is suitable for production deployment.",
+      "requirements": "Upgrade vulnerable dependencies to the minimum patched version: upgrade Azure.Identity from 1.10.4 to ≥1.21.0 (as recommended by assessment); update System.Text.Json to a patched version. If a CVE fix requires a major version upgrade, document the affected dependency, current version, upgraded major version, and breaking change risk. Remove or replace deprecated packages: AutoMapper.Extensions.Microsoft.DependencyInjection (deprecated — migrate to AutoMapper with native DI support or a successor), System.IdentityModel.Tokens.Jwt (deprecated — migrate to Microsoft.IdentityModel.JsonWebTokens), xunit and xunit.runner.console (deprecated — migrate to xunit v3 or equivalent). Verify that the project builds and all tests pass after remediation. Runtime environment is established by the .NET 10 upgrade task.",
+      "skills": [
+        {
+          "name": "validate-cves-and-fix",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "generateNewUnitTests": "false",
+        "passUnitTests": "true"
+      },
+      "dependencies": [
+        "001-upgrade-dotnet-to-net10",
+        "002-transform-keyvault-secrets",
+        "003-transform-app-configuration"
+      ]
+    }
+  ]
+}
